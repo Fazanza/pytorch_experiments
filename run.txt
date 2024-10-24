@@ -1,0 +1,2 @@
+# Location of huggingface-cli
+~/.local/bin/huggingface-cli
