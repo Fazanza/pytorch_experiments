@@ -2,10 +2,8 @@ import requests
 import json
 
 # Replace these variables with your own values
-endpoint = "https://api.umgpt.umich.edu/azure-openai-api"
 api_version = "2023-05-15"  # Make sure to use the appropriate version
 deployment_name = "gpt-35-turbo"  # Your model deployment name
-api_key = "284af94323d74a0e82f477ae9b226eef"  # Your Azure OpenAI API key
 
 headers = {
     "Content-Type": "application/json",
