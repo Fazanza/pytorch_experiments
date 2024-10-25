@@ -39,7 +39,6 @@ evaluation_prompt_template = ChatPromptTemplate.from_messages(
     ]
 )
 
-openai_api_key = "284af94323d74a0e82f477ae9b226eef"
 eval_chat_model = ChatOpenAI(model="gpt-4o-mini", temperature=0, openai_api_key=openai_api_key)
 evaluator_name = "GPT4"
 
